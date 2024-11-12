@@ -1,0 +1,18 @@
+.car{
+    background-image: url('/car.jpg');
+    background-repeat: no-repeat;
+    background-size:  1200px 700px;
+}
+.container-fluid{
+    height:740px;
+    width:1500px;
+    background-image: url('/car.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.myform{
+    margin-top: 200px;
+    margin-left: 400px;
+    padding:20px;
+}
+

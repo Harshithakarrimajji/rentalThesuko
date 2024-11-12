@@ -1,0 +1,20 @@
+<!-- <p>userdashboard works!</p> -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-3">
+            <nav class="navbar navbar-dark bg-dark">
+                <a class="navbar-brand" routerLink="#">RentalThesuko</a>
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" routerLink="/user/bikes"><i class="fa-fa-bike"></i>Bikes</a></li>
+                    <li class="nav-item"><a class="nav-link" routerLink="/user/cars"><i class="fa-fa-car"></i>cars</a></li>
+                    <li class="nav-item"><a class="nav-link" routerLink="/user/booking"><i class="fa-fa-suitacse"></i>Bookings</a></li>
+                    <li class="nav-item"><a class="nav-link" routerLink="/user/wishlist"><i class="fa-fa-heart"></i>Wishlist</a></li>
+                    <li class="nav-item"><a class="nav-link" routerLink="/"><i class="fa-fa-sign-out"></i>Logout</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="col-md-9">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>
